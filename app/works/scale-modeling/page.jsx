@@ -89,8 +89,8 @@ export default function ScaleModelingEssay() {
                 <br />
                 <p className="indent-16">By designating the scale of what the sculpture depicts or imagines as “a world,” Banerjee makes it hard not to regard the assemblage on the floor as a whimsical habitat whose plant, animal, and human figures correspond to no known ecosystem or biome. Because she reinvents the topography and population of this habitat anew&mdash;and very differently&mdash;each time the piece is exhibited, whatever “world” one imagines in this habitat will indeed be lost in a matter of weeks. This future loss feels proleptically present somehow when one fixates on the slow, pendular, clockwise and counter-clockwise turning of the sculpture’s inverted dome (an inevitable climatic effect of the gallery’s air currents interacting with a heavy form suspended from a slender wire). Banerjee’s complete title for the sculpture, however, alters its spatial and temporal scale into something more expansive and yet also much more depressingly intimate:</p>
                 <br />
-                <blockquote className="relative border-s-4 border-[#f0d2d2] ps-4 sm:ps-6 dark:border-gray-700">
-                  <p className="text-zinc-800 sm:text-base dark:text-white"><em>
+                <blockquote className="relative border-s-4 border-[#f0d2d2] ps-4 sm:ps-6">
+                  <p className="text-zinc-800 sm:text-base"><em>
                     A World Lost: after the original island appears, a single land mass is fractured, after population migrated, after pollution revealed itself and as cultural locations once separated did merged, after the splitting of Adam and Eve, shiva and shakti, of race black and white, of culture East and West, after animals diminished, after the seas’ corals did exterminate, after this and at last imagine all water evaporated,…this after Columbus found it we lost it, imagine this.
                   </em></p>
                 </blockquote>
