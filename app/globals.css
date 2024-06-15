@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  a, Link {
+    @apply text-[#be3a3b] hover:underline hover:underline-offset-[5px] hover:decoration-[0.5px];
+  }
+}
+
+li.active {
+  /* text-decoration: underline;
+  text-decoration-color: #be3a3b;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px; */
+  
+}
+
+.bgimg {
+  background-image: url('/images/TMPL_SU.jpg');
+}
