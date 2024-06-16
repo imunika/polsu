@@ -40,7 +40,7 @@ export default function NavBar() {
           ))}
         </ul>
       </nav>
-      <div className="mt-24">
+      <div className="mt-8 lg:mt-24">
         {/* Add some margin to the top of the main content to prevent it from being covered by the navbar */}
         {/* The main content goes here */}
       </div>

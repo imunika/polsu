@@ -4,10 +4,10 @@ export default function AboutPage() {
   return (
     <>
       {/* <div className="grid grid-cols-8 p-8 bg-[rgb(253,249,249)]"> */}
-      <div className="grid grid-cols-8 p-8">
+      <div className="grid grid-cols-8 pt-16 lg:p-8 bg-[rgb(253,249,249)]">
         <div></div>
           <div className="col-span-6 mt-10">
-            <div className="px-5 pt-3 text-center font-lato font-light text-5xl leading-8 tracking-wide uppercase">
+            <div className="lg:px-5 pt-3 text-center font-lato font-light text-5xl leading-8 tracking-wide uppercase">
               about
             </div>
           </div>
@@ -15,15 +15,15 @@ export default function AboutPage() {
       </div>
 
       {/* <div className="grid grid-cols-6 bg-[rgb(253,249,249)] mb-6"> */}
-      <div className="grid grid-cols-6 mb-6">
+      <div className="grid grid-cols-6 mb-6 bg-[rgb(253,249,249)]">
         <div></div>
-        <div className="mb-6 md:col-span-4 col-span-6">
-          <div className="text-lg text-justify text-zinc-800 leading-8 tracking-wide p-4 pt-16">
-            <figure className="object-center sm:float-right ml-7 mt-2">
+        <div className="mb-10 md:col-span-4 col-span-6">
+          <div className="text-lg md:text-justify text-zinc-800 leading-8 tracking-wide p-4 pt-16">
+            <figure className="object-center lg:float-right lg:ml-7 mt-2">
               <Image src="/images/about/RomitaRay_bio.jpg" width={360} height={480} alt="Romita Ray" className="w-80 h-100 border border-slate-300 p-1" />
               <figcaption className="mt-1 ml-1 text-xs text-slate-600 dark:text-gray-400">Romita Ray</figcaption>
             </figure>
-            <p className="mt-4 sm:mt-0">
+            <p className="mt-4 lg:mt-0">
               <i>Take Me to the Palace of Love</i> grew out of a global pandemic (January 19 – May 14, 2023).
               Rooted in the nourishing power of love, it coaxed us to reflect on our sense of place in our communities and on our planet.
               Yet love, as Banerjee reminds us, has been distorted to create inequity and destroy our relationships with the natural world.

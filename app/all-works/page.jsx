@@ -37,10 +37,10 @@ export default function MultiFilters() {
 
   return (
     <>
-      <div className="grid grid-cols-8 p-8 bg-[rgb(253,249,249)]">
+      <div className="grid grid-cols-8 pt-16 lg:p-8 bg-[rgb(253,249,249)]">
         <div></div>
         <div className="col-span-6 mt-10">
-          <div className="px-5 pt-3 text-zinc-950 text-center font-lato font-light text-5xl capitalize leading-8 tracking-wide">
+          <div className="lg:px-5 pt-3 text-zinc-950 text-center font-lato font-light text-5xl capitalize leading-8 tracking-wide">
             WORKS
           </div>
         </div>

@@ -68,7 +68,7 @@ export default function HomePage() {
         </div>
 
         {/* All works/articles */}
-        <div id='articles' className="pt-24 -mt-24">
+        <div id='articles' className="pt-8 -mt-8 lg:pt-24 lg:-mt-24">
           <Articles />
         </div>
 
