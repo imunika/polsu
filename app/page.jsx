@@ -44,7 +44,7 @@ export default function HomePage() {
         <div></div>
         <div className="mb-6 md:col-span-6 col-span-8">
           <div>
-            <p className="text-lg text-justify text-zinc-800 leading-8 tracking-wide p-8">
+            <p className="text-lg md:text-justify text-zinc-800 leading-8 tracking-wide p-8">
               Can we rescue love? This fundamental question underscored <i>Take Me to the Palace of Love</i>, an
               exhibition of acclaimed artist-engineer Rina Banerjee’s work that took place at the Syracuse
               University Art Museum in Syracuse, New York (January 19 – May 14, 2023). Three critical art

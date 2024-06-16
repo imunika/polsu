@@ -15,7 +15,7 @@ export default function HamburgerMenu() {
 
   return (
     // <div className="shadow-md">
-    <div className="fixed top-0 w-full z-30 px-4 shadow-lg bg-white bg-opacity-80 shadow-stone-400/[0.3] backdrop-blur-[0.5rem]">
+    <div className="fixed top-0 w-full z-30 shadow-lg bg-white bg-opacity-80 shadow-stone-400/[0.3] backdrop-blur-[0.5rem]">
       {/* Hamburger icon for small screens */}
       <button
         onClick={menuOpen ? closeMenu : openMenu}
