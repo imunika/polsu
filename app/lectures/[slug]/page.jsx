@@ -2,6 +2,7 @@ import SocialIconsVideo from "../../components/SocialiconsVideo";
 import Link from "next/link";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import data from '/src/data';
+import Head from "next/head";
 
 export async function generateStaticParams() { 
   const lectures = data.filter(item => item.category === "lectures");
@@ -17,6 +18,9 @@ export default function videoLecture({ params: {slug} }) {
 
   return (
     <>
+      <Head>
+        <title>Lectures - Palace of Love</title>
+      </Head>
       <div className="grid grid-cols-16">
         <div></div>
         <div className="md:col-span-12 col-span-16 bg-black">

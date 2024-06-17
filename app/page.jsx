@@ -1,10 +1,14 @@
 // import Image from "next/image";
 'use client'
 import Articles from "./components/Articles";
+import Head from "next/head";
 
 export default function HomePage() {
   return (
     <>
+      <Head>
+        <title>PLSU - ABOUT</title>
+      </Head>
       <main>
         {/* Hero section */}
         <section className="h-screen bg-center bg-cover bg-blend-overlay bg-black/20 bgimg">

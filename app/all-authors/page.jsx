@@ -3,6 +3,7 @@ import { useState } from "react";
 import Profile from "../components/Profile";
 import ModalProfile from "../components/ModalProfile";
 import records from '/src/records.json'
+import Head from "next/head";
 
 export default function AllAuthorsPage() {
   const [showModal, setShowModal] = useState(false);
@@ -17,6 +18,9 @@ export default function AllAuthorsPage() {
 
   return (
     <>
+      <Head>
+        <title>Contributors - Palace of Love</title>
+      </Head>
       <div className="grid grid-cols-8 pt-16 lg:p-8 bg-[rgb(253,249,249)]">
         <div></div>
           <div className="col-span-8 lg:col-span-6 mt-10">

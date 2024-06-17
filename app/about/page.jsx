@@ -1,9 +1,12 @@
 import Image from "next/image";
+import Head from 'next/head';
 
 export default function AboutPage() {
   return (
     <>
-      {/* <div className="grid grid-cols-8 p-8 bg-[rgb(253,249,249)]"> */}
+      <Head>
+        <title>About - Palace of Love</title>
+      </Head>
       <div className="grid grid-cols-8 pt-16 lg:p-8 bg-[rgb(253,249,249)]">
         <div></div>
           <div className="col-span-8 lg:col-span-6 mt-10">
@@ -14,7 +17,6 @@ export default function AboutPage() {
         <div></div>
       </div>
 
-      {/* <div className="grid grid-cols-6 bg-[rgb(253,249,249)] mb-6"> */}
       <div className="grid grid-cols-6 mb-6 bg-[rgb(253,249,249)]">
         <div></div>
         <div className="mb-10 md:col-span-4 col-span-6">
