@@ -4,7 +4,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import data from '/src/data';
 import CardWorks from './CardWorks';
 import Buttons from '../components/Buttons';
-import Head from 'next/head';
 
 function shuffleArray(array) {
   const shuffledArray = array.slice(); // Create a copy of the array
@@ -39,9 +38,6 @@ export default function MultiFilters() {
 
   return (
     <>
-      <Head>
-        <title>Contributors - Palace of Love</title>
-      </Head>
       <div className="grid grid-cols-8 p-8 bg-[rgb(253,249,249)]">
         <div></div>
         <div className="col-span-8 lg:col-span-6 mt-10">
