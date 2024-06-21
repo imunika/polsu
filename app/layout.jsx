@@ -2,28 +2,6 @@ import { allura, antic_didone, arizonia, italiana, lato, raleway, roboto, tavira
 import "./globals.css";
 import ClientRoot from "./ClientRoot";
 
-export async function generateMetadata({ params }) {
-  // Fetch or derive metadata dynamically
-  const { slug } = params;
-  const pageData = data.find((item) => item.url.endsWith(slug));
-
-  return {
-    title: 'Palace of Love SU',
-    openGraph: {
-      title: pageData?.title || 'Default Title',
-      url: `https://polsu.vercel.app${pageData?.url || ''}`,
-      images: [
-        {
-          url: pageData?.cover_img || '/default-image.jpg',
-        },
-      ],
-    },
-    twitter: {
-      card: 'summary_large_image',
-    },
-  };
-}
-
 // export const metadata = {
 //   title: 'Palace of Love SU',
 //   openGraph: {

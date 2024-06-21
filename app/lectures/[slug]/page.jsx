@@ -1,5 +1,7 @@
 import VideoLectureContent from "../../components/VideoLectureContent";
 import data from '/src/data';
+import { useEffect } from "react";
+import Head from "next/head";
 
 export async function generateStaticParams() {
   const lectures = data.filter(item => item.category === "lectures");
@@ -13,14 +15,19 @@ export default function VideoLecturePage({ params: { slug } }) {
   const prevItem = data.find(elem => elem.url === item.prev);
   const nextItem = data.find(elem => elem.url === item.next);
 
-  const { slug } = params;
-  const pageData = data.find((item) => item.url.endsWith(slug));
-
-  if (!pageData) {
-    return <div>Loading...</div>;
-  }
-
+  useEffect(() => {
+    document.title = item.title;
+    document.querySelector('meta[name="description"]').setAttribute("content", item.description);
+  }, [item]);
+  
   return (
-    <VideoLectureContent item={item} prevItem={prevItem} nextItem={nextItem} />
+    <>
+      <Head>
+        <title>{item.title}</title>
+        <meta name="description" content={item.description} />
+        {/* Add more dynamic metadata here if needed */}
+      </Head>
+      <VideoLectureContent item={item} prevItem={prevItem} nextItem={nextItem} />
+    </>
   );
 }
