@@ -6,24 +6,6 @@ import SocialIcons from "../../components/Socialicons";
 import Link from "next/link";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 
-export const metadata = {
-  openGraph: {
-    title: 'A World Lost',
-    description: 'Poem by Khadija Sharif',
-    url: 'https://polsu.vercel.app/works/a-world-lost',
-    siteName: 'Palace of Love SU',
-    images: [
-      {
-        url: 'https://polsu.vercel.app/images/poems/poem1_khadija.jpg',
-        width: 800,
-        height: 600,
-      },
-    ],
-    locale: 'en_US',
-    type: 'website',
-  },
-};
-
 export default function WorldLostPoem() {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [modalData, setModalData] = useState({});
