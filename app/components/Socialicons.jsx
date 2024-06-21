@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { MdMailOutline } from "react-icons/md";
+import { IoMdMail } from "react-icons/io";
 import data from '/src/data';
 
 export default function SocialIcons() {
@@ -58,7 +58,7 @@ export default function SocialIcons() {
         className="bg-[rgb(252,252,252)] border border-[#be3a3b]/10 p-2 text-gray-700 flex items-center gap-2 rounded-full
           focus:scale-110 hover:scale-[1.15] hover:bg-white hover:text-[#be3a3b] active:scale-105 transition cursor-pointer text-[1.1rem]"
       >
-        <MdMailOutline />
+        <IoMdMail />
       </a>
     </div>
   );
