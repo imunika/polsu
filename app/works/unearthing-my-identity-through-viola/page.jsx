@@ -28,13 +28,13 @@ export default function UnearthingIdentityPoem() {
     <>
       <div className="grid grid-cols-6 m-6">
         <div></div>
-        <div className="my-10 md:col-span-4 col-span-6 bg-[rgb(253,249,249)]">
-          <div className="mt-20 px-5 pb-10 md:mx-6 lg:mx-12 xl:mx-16 2xl:mx-32 min-[1600px]:mx-40">
+        <div className="sm:my-10 md:col-span-4 col-span-6 bg-[rgb(253,249,249)]">
+          <div className="mt-16 sm:mt-20 px-5 sm:pb-10 md:mx-6 lg:mx-12 xl:mx-16 2xl:mx-32 min-[1600px]:mx-40">
             <h1 className="font-italiana font-light pb-3 text-4xl sm:text-6xl tracking-wide leading-tight">
               Unearthing my Identity through Viola
             </h1>
 
-            <div className="mt-4 flex justify-between items-center">
+            <div className="sm:mt-4 flex justify-between items-center">
               <div className="flex items-center">
                 <div><Image src="/images/headshots/zamzam_mohamed.png" width={64} height={64} className="p-2 mx-auto" alt="" /></div>
                 <div>by <span className="text-[#be3a3b] font-medium cursor-pointer" onClick={handleLinkClick}>Zamzam Mohamed</span></div>
@@ -108,7 +108,7 @@ export default function UnearthingIdentityPoem() {
 
       <div className="grid grid-cols-6 m-6">
         <div></div>
-        <div className="my-10 md:col-span-4 col-span-6">
+        <div className="sm:my-10 md:col-span-4 col-span-6">
           <div className="flex items-center gap-20">
             <div className="text-left flex-1">
               <div className="flex flex-col">

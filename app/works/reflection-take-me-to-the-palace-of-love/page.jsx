@@ -61,13 +61,13 @@ export default function ReflectionEssay() {
     <>          
       <div className="grid grid-cols-6 m-6">
         <div></div>
-        <div className="my-10 md:col-span-4 col-span-6 bg-[rgb(253,249,249)]">
-          <div className="mt-20 px-5 pb-10 md:mx-6 lg:mx-12 xl:mx-16 2xl:mx-32 min-[1600px]:mx-40">
+        <div className="sm:my-10 md:col-span-4 col-span-6 bg-[rgb(253,249,249)]">
+          <div className="mt-16 sm:mt-20 px-5 sm:pb-10 md:mx-6 lg:mx-12 xl:mx-16 2xl:mx-32 min-[1600px]:mx-40">
             <h1 className="font-italiana font-light pb-3 text-4xl sm:text-6xl tracking-wide leading-tight">
               Reflection: “Take Me to the Palace of Love”
             </h1>
 
-            <div className="mt-4 flex justify-between items-center">
+            <div className="sm:mt-4 flex justify-between items-center">
               <div className="flex items-center">
                 <div><Image src="/images/headshots/kate_holohan.png" width={64} height={64} className="p-2 mx-auto" alt="" /></div>
                 <div>by <span className="text-[#be3a3b] font-medium cursor-pointer" onClick={handleLinkClick}>Kate Holohan</span></div>
@@ -88,9 +88,9 @@ export default function ReflectionEssay() {
                   I sometimes analogize museum work to the movement of a duck in water. To museum visitors, exhibitions and programs often appear polished and carefully executed, as graceful as a duck gliding across a pond. Yet underneath this surface, the paddling feet of curators, educators, registrars, preparators, administrators, and collaborators belie the appearance of effortlessness.
                 </p>
                 <br />
-                <p className="indent-16">The programs we developed as part of <i>Take Me to the Palace of Love</i> were the product of an incredible amount of behind-the-scenes work. Most of the public programs were the brainchildren of the exhibition’s curator, Romita Ray, who worked with incredible energy and tenacity to engage faculty and students from across the university. Once collaborators and speakers were in place, including faculty from the School of Architecture, the School of Law, Maxwell School of Citizenship and Public Affairs, and the College of Arts & Sciences, program logistics kicked into high gear: RSVPs needed to be managed, microphones charged, seats arranged, and a run-of-show for each event carefully planned.</p>
+                <p className="sm:indent-16">The programs we developed as part of <i>Take Me to the Palace of Love</i> were the product of an incredible amount of behind-the-scenes work. Most of the public programs were the brainchildren of the exhibition’s curator, Romita Ray, who worked with incredible energy and tenacity to engage faculty and students from across the university. Once collaborators and speakers were in place, including faculty from the School of Architecture, the School of Law, Maxwell School of Citizenship and Public Affairs, and the College of Arts & Sciences, program logistics kicked into high gear: RSVPs needed to be managed, microphones charged, seats arranged, and a run-of-show for each event carefully planned.</p>
                 <br />
-                <p className="indent-16">In February 2023, as we embarked on several weeks of near-daily public programs, I also was also working to engage students and faculty by directly connecting the exhibition to university curricula. I got to know Rina Banerjee’s work and professor Ray’s thinking as the show’s curator. I developed gallery activities to spur students’ engagement and scheduled and taught university class visits to the exhibition. I also planned and taught a workshop for SU faculty interested in teaching with the exhibition.</p>
+                <p className="sm:indent-16">In February 2023, as we embarked on several weeks of near-daily public programs, I also was also working to engage students and faculty by directly connecting the exhibition to university curricula. I got to know Rina Banerjee’s work and professor Ray’s thinking as the show’s curator. I developed gallery activities to spur students’ engagement and scheduled and taught university class visits to the exhibition. I also planned and taught a workshop for SU faculty interested in teaching with the exhibition.</p>
                 <br />
                 
                 <div className="mt-10 flex items-center justify-center">
@@ -100,7 +100,7 @@ export default function ReflectionEssay() {
                 </div>
 
                 <br />
-                <p className="indent-16">For each of the museum’s special exhibitions, I develop an art-making project that aims to bridge the gap between the eye, the mind, and the body. The idea is to make art history not just a matter of thought, but of active, bodily engagement. Rina Banerjee’s work, so rich in materials, color, texture, and ideas, posed a challenge. Its abundance&mdash;it’s too much-ness&mdash;baffled me. Could we create mini-versions of Banerjee’s already-scaled down version of the Taj Mahal? I tested different materials but couldn’t get it to work. Could we use sand or glitter to create our own worlds a la <i>A World Lost</i>? A facilities nightmare! Finally, during the middle of installation in January 2023, it hit me: we would make our own “love tokens” inspired by the plastic-wrapped Styrofoam balls at the center, the beating heart, of Banerjee’s Taj.</p>
+                <p className="sm:indent-16">For each of the museum’s special exhibitions, I develop an art-making project that aims to bridge the gap between the eye, the mind, and the body. The idea is to make art history not just a matter of thought, but of active, bodily engagement. Rina Banerjee’s work, so rich in materials, color, texture, and ideas, posed a challenge. Its abundance&mdash;it’s too much-ness&mdash;baffled me. Could we create mini-versions of Banerjee’s already-scaled down version of the Taj Mahal? I tested different materials but couldn’t get it to work. Could we use sand or glitter to create our own worlds a la <i>A World Lost</i>? A facilities nightmare! Finally, during the middle of installation in January 2023, it hit me: we would make our own “love tokens” inspired by the plastic-wrapped Styrofoam balls at the center, the beating heart, of Banerjee’s Taj.</p>
                 <br />
                 
                 <div className="mt-10 flex items-center justify-center">
@@ -119,7 +119,7 @@ export default function ReflectionEssay() {
                 </div>
 
                 <br />
-                <p className="indent-16">These “eureka!” moments provided much-needed clarity and calm for me. Amidst the hectic planning and the wrangling of all the little details, there was joy and delight! These moments also occurred while looking at Banerjee’s work with students. Together we discovered the panoply of figures and features that made up the island-like floor component of <i>A World Lost</i>. And, a student helped me see a part of <i>Viola, from New Orleans…</i> that I had overlooked. The Yoruba-style mask that I had thought was Viola’s face truly was a mask: behind it was a glass head, transparent, enigmatic, nearly hidden. Together we imagined and reimagined how the world is made, what it is made of, and what it means to make a world.</p>
+                <p className="sm:indent-16">These “eureka!” moments provided much-needed clarity and calm for me. Amidst the hectic planning and the wrangling of all the little details, there was joy and delight! These moments also occurred while looking at Banerjee’s work with students. Together we discovered the panoply of figures and features that made up the island-like floor component of <i>A World Lost</i>. And, a student helped me see a part of <i>Viola, from New Orleans…</i> that I had overlooked. The Yoruba-style mask that I had thought was Viola’s face truly was a mask: behind it was a glass head, transparent, enigmatic, nearly hidden. Together we imagined and reimagined how the world is made, what it is made of, and what it means to make a world.</p>
                 <br />
                 
                 <div className="mt-10 flex items-center justify-center">
@@ -148,7 +148,7 @@ export default function ReflectionEssay() {
 
       <div className="grid grid-cols-6 m-6">
         <div></div>
-        <div className="my-10 md:col-span-4 col-span-6">
+        <div className="sm:my-10 md:col-span-4 col-span-6">
           <div className="flex items-center gap-20">
             <div className="text-left flex-1">
               <div className="flex flex-col">

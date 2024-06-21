@@ -73,13 +73,13 @@ export default function ArtMuseumEssay() {
     <>          
       <div className="grid grid-cols-6 m-6">
         <div></div>
-        <div className="my-10 md:col-span-4 col-span-6 bg-[rgb(253,249,249)]">
-          <div className="mt-20 px-5 pb-10 md:mx-6 lg:mx-12 xl:mx-16 2xl:mx-32 min-[1600px]:mx-40">
+        <div className="sm:my-10 md:col-span-4 col-span-6 bg-[rgb(253,249,249)]">
+          <div className="mt-16 sm:mt-20 px-5 sm:pb-10 md:mx-6 lg:mx-12 xl:mx-16 2xl:mx-32 min-[1600px]:mx-40">
             <h1 className="font-italiana font-light pb-3 text-4xl sm:text-6xl tracking-wide leading-tight">
               “Take me, take me, take me... to the art museum”
             </h1>
             
-            <div className="mt-4 flex justify-between items-center">
+            <div className="sm:mt-4 flex justify-between items-center">
               <div className="flex items-center">
                 <div><Image src="/images/headshots/melissa_yuen.png" width={64} height={64} className="p-2 mx-auto" alt="" /></div>
                 <div>by <span className="text-[#be3a3b] font-medium cursor-pointer" onClick={handleLinkClick}>Melissa Yuen</span></div>
@@ -108,7 +108,7 @@ export default function ArtMuseumEssay() {
                 </div>
                 
                 <br />
-                <p className="indent-16">The multitude of materials used in each sculpture create different visual qualities, allowing for multiple points of access, all of which were evident during the run of the exhibition. Students’ jaws dropped when they rounded the corner and encountered the spectacle of <i>Take me, Take me, Take me… to the Palace of Love</i> (2013), a pink Saranwrap covered reduction of the Taj Mahal, which was suspended from the ceiling. A tween spent 20 minutes poring over the painting on the floor of <i>A World Lost</i> (2013), gleefully pointing out the many whimsical details, including the Eiffel Tower, angel heads, bears, toy soldiers, and a single black feather contributed by one of Syracuse’s many crows, that Banerjee nestled among brightly colored sand (fig. 6). Faculty made connections between the artworks to their lived experiences and critical theory in the same conversation. These experiences would not be possible without the museum nor the artworks on view in the galleries.</p>
+                <p className="sm:indent-16">The multitude of materials used in each sculpture create different visual qualities, allowing for multiple points of access, all of which were evident during the run of the exhibition. Students’ jaws dropped when they rounded the corner and encountered the spectacle of <i>Take me, Take me, Take me… to the Palace of Love</i> (2013), a pink Saranwrap covered reduction of the Taj Mahal, which was suspended from the ceiling. A tween spent 20 minutes poring over the painting on the floor of <i>A World Lost</i> (2013), gleefully pointing out the many whimsical details, including the Eiffel Tower, angel heads, bears, toy soldiers, and a single black feather contributed by one of Syracuse’s many crows, that Banerjee nestled among brightly colored sand (fig. 6). Faculty made connections between the artworks to their lived experiences and critical theory in the same conversation. These experiences would not be possible without the museum nor the artworks on view in the galleries.</p>
                 <br />
                 
                 <div className="flex items-center justify-center">
@@ -118,7 +118,7 @@ export default function ArtMuseumEssay() {
                 </div>
 
                 <br />
-                <p className="indent-16">These wide-ranging interactions with the exhibition are also borne out in the class visits and programs that occurred in the museum’s galleries, a space where different audiences (from Syracuse University and beyond) came together around tangible objects and worked through the ideas presented (fig. 7). As a curator, witnessing these conversations in the galleries is one of the most gratifying parts of my work. With each exhibition, my colleagues and I spend so much time thinking through the conceptual frameworks and installation details, while also making countless contingency plans in case arrangements go awry. Yet, what we often cannot account for are the visitors’ reactions&mdash;the joy, bewilderment, awe, and excitement&mdash;expressed in the galleries. These emotions on display in the art museum, alongside the objects that elicited them, affirm the importance of art for the academic community and for humanity more broadly.</p>
+                <p className="sm:indent-16">These wide-ranging interactions with the exhibition are also borne out in the class visits and programs that occurred in the museum’s galleries, a space where different audiences (from Syracuse University and beyond) came together around tangible objects and worked through the ideas presented (fig. 7). As a curator, witnessing these conversations in the galleries is one of the most gratifying parts of my work. With each exhibition, my colleagues and I spend so much time thinking through the conceptual frameworks and installation details, while also making countless contingency plans in case arrangements go awry. Yet, what we often cannot account for are the visitors’ reactions&mdash;the joy, bewilderment, awe, and excitement&mdash;expressed in the galleries. These emotions on display in the art museum, alongside the objects that elicited them, affirm the importance of art for the academic community and for humanity more broadly.</p>
                 <br />
                 
                 <div className="flex items-center justify-center">
@@ -147,7 +147,7 @@ export default function ArtMuseumEssay() {
 
       <div className="grid grid-cols-6 m-6">
         <div></div>
-        <div className="my-10 md:col-span-4 col-span-6">
+        <div className="sm:my-10 md:col-span-4 col-span-6">
           <div className="flex items-center gap-20">
             <div className="text-left flex-1">
               <div className="flex flex-col">

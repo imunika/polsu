@@ -73,13 +73,13 @@ export default function InstallingPalaceLoveEssayAC() {
     <>          
       <div className="grid grid-cols-6 m-6">
         <div></div>
-        <div className="my-10 md:col-span-4 col-span-6 bg-[rgb(253,249,249)]">
-          <div className="mt-20 px-5 pb-10 md:mx-6 lg:mx-12 xl:mx-16 2xl:mx-32 min-[1600px]:mx-40">
+        <div className="sm:my-10 md:col-span-4 col-span-6 bg-[rgb(253,249,249)]">
+          <div className="mt-16 sm:mt-20 px-5 sm:pb-10 md:mx-6 lg:mx-12 xl:mx-16 2xl:mx-32 min-[1600px]:mx-40">
             <h1 className="font-italiana font-light pb-3 text-4xl sm:text-6xl tracking-wide leading-tight">
               Behind the Scenes: Installing “Take Me to the Palace of Love”
             </h1>
 
-            <div className="mt-4 flex justify-between items-center">
+            <div className="sm:mt-4 flex justify-between items-center">
               <div className="flex items-center">
                 <div><Image src="/images/headshots/abby_campanaro.png" width={64} height={64} className="p-2 mx-auto" alt="" /></div>
                 <div>by <span className="text-[#be3a3b] font-medium cursor-pointer" onClick={handleLinkClick}>Abby Campanaro</span></div>
@@ -108,7 +108,7 @@ export default function InstallingPalaceLoveEssayAC() {
                 </div>
 
                 <br />
-                <p className="indent-16">The installation process for the <i>Take Me, Take Me, Take Me…to the Palace of Love</i>, <i>Viola, from New Orleans</i>, and <i>A World Lost</i> was neither glamorous nor easy (fig. 2). I probably spent an equal amount of time kneeling on the ground to unwrap objects and laying on my back to patch holes in the plastic underside of the <i>Taj</i> dome as I did standing on my feet (fig. 3). At times, the process was almost humbling as I crawled on the ground in front of <i>Viola</i>, meticulously placing each shoe and shell around her feet, and then spending more than an hour combing through the hundreds of threads hanging from her clothes and body (figs. 4 and 5). Despite the challenges, I do think this installation was distinctive in the sheer amount of teamwork required to put it together, and the camaraderie that emerged through the process. Nothing bonds a group of people more than sitting underneath the largest dome of the <i>Take Me, Take Me, Take Me…to the Palace of Love</i> and collectively feeling as if we’re sitting in a womb, which was a truly unique experience to say the least. But suffice to say, the work would never have gotten done without the assistance of our full museum staff, plus Rina’s installer, John Umphlett, who never seemed fazed by the task at hand, though I’m sure that putting a pink Taj Mahal together, piece by piece, is just a typical day in the office for him (fig. 6).</p>
+                <p className="sm:indent-16">The installation process for the <i>Take Me, Take Me, Take Me…to the Palace of Love</i>, <i>Viola, from New Orleans</i>, and <i>A World Lost</i> was neither glamorous nor easy (fig. 2). I probably spent an equal amount of time kneeling on the ground to unwrap objects and laying on my back to patch holes in the plastic underside of the <i>Taj</i> dome as I did standing on my feet (fig. 3). At times, the process was almost humbling as I crawled on the ground in front of <i>Viola</i>, meticulously placing each shoe and shell around her feet, and then spending more than an hour combing through the hundreds of threads hanging from her clothes and body (figs. 4 and 5). Despite the challenges, I do think this installation was distinctive in the sheer amount of teamwork required to put it together, and the camaraderie that emerged through the process. Nothing bonds a group of people more than sitting underneath the largest dome of the <i>Take Me, Take Me, Take Me…to the Palace of Love</i> and collectively feeling as if we’re sitting in a womb, which was a truly unique experience to say the least. But suffice to say, the work would never have gotten done without the assistance of our full museum staff, plus Rina’s installer, John Umphlett, who never seemed fazed by the task at hand, though I’m sure that putting a pink Taj Mahal together, piece by piece, is just a typical day in the office for him (fig. 6).</p>
                <br />
 
                 <div className="flex items-center justify-center">
@@ -118,7 +118,7 @@ export default function InstallingPalaceLoveEssayAC() {
                 </div>
                 
                 <br />
-                <p className="indent-16">For me, however, this experience was unlike anything I’ve ever done before, both inside and outside of the museum world. It was challenging and intricate, but seeing an empty gallery space fill with these larger-than-life pieces in less than a week and knowing I played a role in the process was an incredibly rewarding feeling (fig. 7).</p>
+                <p className="sm:indent-16">For me, however, this experience was unlike anything I’ve ever done before, both inside and outside of the museum world. It was challenging and intricate, but seeing an empty gallery space fill with these larger-than-life pieces in less than a week and knowing I played a role in the process was an incredibly rewarding feeling (fig. 7).</p>
                 <br />
                 
                 <div className="flex items-center justify-center">
@@ -147,7 +147,7 @@ export default function InstallingPalaceLoveEssayAC() {
 
       <div className="grid grid-cols-6 m-6">
         <div></div>
-        <div className="my-10 md:col-span-4 col-span-6">
+        <div className="sm:my-10 md:col-span-4 col-span-6">
           <div className="flex items-center gap-20">
             <div className="text-left flex-1">
               <div className="flex flex-col">
