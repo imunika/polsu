@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import ModalProfile from "../../components/ModalProfile";
 import Image from "next/image";
 import SocialIcons from "../../components/Socialicons";
@@ -41,13 +41,6 @@ const gallery4 = [
 ];
 
 export default function StrangerPalaceLoveEssay() {
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      // Code that uses the window object
-      console.log(window.location.href);
-    }
-  }, []);
-
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [modalData, setModalData] = useState({});
 

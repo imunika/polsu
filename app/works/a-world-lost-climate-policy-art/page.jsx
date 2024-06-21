@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import ModalProfile from "../../components/ModalProfile";
 import SocialIcons from "../../components/Socialicons";
 import Image from 'next/image';
@@ -31,14 +31,7 @@ const gallery3 = [
   },
 ];
 
-export default function WorldLostEssay() {
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      // Code that uses the window object
-      console.log(window.location.href);
-    }
-  }, []);
-  
+export default function WorldLostEssay() {  
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [modalData, setModalData] = useState({});
 
