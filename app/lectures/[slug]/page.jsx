@@ -1,3 +1,4 @@
+'use client';
 import VideoLectureContent from "../../components/VideoLectureContent";
 import data from '/src/data';
 import { useEffect } from "react";
