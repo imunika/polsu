@@ -13,6 +13,13 @@ export default function VideoLecturePage({ params: { slug } }) {
   const prevItem = data.find(elem => elem.url === item.prev);
   const nextItem = data.find(elem => elem.url === item.next);
 
+  const { slug } = params;
+  const pageData = data.find((item) => item.url.endsWith(slug));
+
+  if (!pageData) {
+    return <div>Loading...</div>;
+  }
+
   return (
     <VideoLectureContent item={item} prevItem={prevItem} nextItem={nextItem} />
   );
