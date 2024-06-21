@@ -3,6 +3,7 @@ import "./globals.css";
 import ClientRoot from "./ClientRoot";
 
 export const metadata = {
+  title: 'Palace of Love SU',
   openGraph: {
     title: 'A World Lost',
     description: 'Poem by Khadija Sharif',
