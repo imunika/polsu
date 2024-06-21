@@ -1,5 +1,5 @@
-'use client'
-import { useState } from "react";
+'use client';
+import { useEffect, useState } from "react";
 import ModalProfile from "../../components/ModalProfile";
 import Image from "next/image";
 import SocialIcons from "../../components/Socialicons";
@@ -33,6 +33,13 @@ const gallery3 = [
 ];
 
 export default function OtherRoutesEssay() {
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      // Code that uses the window object
+      console.log(window.location.href);
+    }
+  }, []);
+  
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [modalData, setModalData] = useState({});
 

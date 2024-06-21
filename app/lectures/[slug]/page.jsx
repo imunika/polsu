@@ -1,7 +1,7 @@
 import VideoLectureContent from "../../components/VideoLectureContent";
 import data from '/src/data';
 
-export async function generateStaticParams() { 
+export async function generateStaticParams() {
   const lectures = data.filter(item => item.category === "lectures");
   return lectures.map((elem) => ({
     slug: elem.url.substring(10),
