@@ -17,7 +17,7 @@ export default function AboutPage() {
         <div></div>
         <div className="mb-10 md:col-span-4 col-span-6">
           <div className="text-lg md:text-justify text-zinc-800 leading-8 tracking-wide p-4 pt-16">
-            <figure className="flex flex-col items-center lg:float-right lg:ml-7 mt-2">
+            <figure className="flex flex-col items-center 2xl:float-right lg:ml-7 mt-2">
               <img
                 src="/images/about/rina_pink_taj.jpg"
                 width="720"
@@ -25,13 +25,6 @@ export default function AboutPage() {
                 alt="Rina in front of Pink Taj"
                 className="border border-slate-300 p-2 rounded-3xl"
               />
-              {/* <Image
-                src="/images/about/rina_pink_taj.jpg"
-                width={720}
-                height={540}
-                alt="Romita Ray"
-                className="border border-slate-300 p-2 rounded-3xl"
-              /> */}
               <figcaption className="mt-1 ml-1 text-xs text-slate-600 dark:text-gray-400">“Rina in front of Pink Taj.” Rina Banerjee, <i>Take Me to the Palace of Love</i>, Syracuse University.</figcaption>
             </figure>
             <p className="mt-4 lg:mt-0">
