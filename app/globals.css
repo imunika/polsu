@@ -18,4 +18,32 @@ li.active {
 
 .bgimg {
   background-image: url('/images/TMPL_SU.jpg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
+
+
+/* wraping text around an image */
+.text-oval-wrap {
+  shape-outside: circle(46%);
+  width: 480px;
+  height: 680px;
+  margin: 0 1rem 1rem 0;
+}
+
+@media (max-width: 1024px) {
+  .text-oval-wrap {
+    float: none;
+    shape-outside: none;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.text-content {
+  overflow-wrap: break-word;
+}
+
+
