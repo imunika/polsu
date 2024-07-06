@@ -42,7 +42,7 @@ export default function HamburgerMenu() {
               onClick={closeMenu}
               href="/#articles">
               <span className="relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-full after:h-[2px] after:bg-[#be3a3b] after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100">
-                WORKS
+                REFLECTIONS
               </span>
             </Link>
 

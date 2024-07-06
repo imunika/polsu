@@ -4,6 +4,18 @@ import { FaVideo } from "react-icons/fa";
 
 const data = [
   {
+    id: 0,
+    category: "essays",
+    author_name: "Romita Ray",
+    title: "What’s Love Got to Do With It?",
+    cover_img: "/images/portal/love_got_to_do_rr.jpg",
+    desc: "Curating <i>Take Me to the Palace of Love</i> was a labor of love. It was also a collaboration, an experiment, and a community engagement that began with Rina Banerjee, whose thought-provoking and spectacular installations and drawings invited us into the intertwined worlds of art, science, and engineering.",
+    url: "/works/whats-love-got-to-do-with-it",
+    time: "",
+    date: "",
+    icon: <SiGoogledocs className="text-white text-4xl drop-shadow-xl" />
+  },
+  {
     id: 1,
     category: "essays",
     author_name: "David M. Driesen",

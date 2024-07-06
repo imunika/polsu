@@ -5,14 +5,14 @@ export default function NavBar() {
   const pathname = usePathname();
 
   const navItems = [
-    { text: 'WORKS', path: '/#articles' },
+    { text: 'REFLECTIONS', path: '/#articles' },
     { text: 'CONTRIBUTORS', path: '/all-authors' },
     { text: 'ABOUT', path: '/about' },
   ];
 
   return (
     <>
-      <nav className="fixed top-0 w-full z-30 px-4 sm:px-10 md:px-20 lg:px-40 xl:px-60 py-3 shadow-lg bg-white bg-opacity-80 shadow-stone-400/[0.3] backdrop-blur-[0.5rem]">
+      <nav className="fixed top-0 w-full z-30 px-4 sm:px-10 md:px-20 lg:px-40 xl:px-60 py-2 shadow-lg bg-white bg-opacity-80 shadow-stone-400/[0.3] backdrop-blur-[0.5rem]">
         <ul className="flex gap-4 sm:gap-6 md:gap-8 lg:gap-10 items-center">
           <li className="mr-auto pt-1">
             <Link href="/" className="text-[#be3a3b] text-2xl hover:no-underline">

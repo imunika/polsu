@@ -1,34 +1,19 @@
-import { allura, antic_didone, arizonia, italiana, lato, raleway, roboto, taviraj, playfair } from "./fonts";
+import { antic_didone, arizonia, italiana, lato } from "./fonts";
 import "./globals.css";
 import ClientRoot from "./ClientRoot";
 
-// export const metadata = {
-//   title: 'Palace of Love SU',
-//   openGraph: {
-//     title: 'A World Lost',
-//     description: 'Poem by Khadija Sharif',
-//     url: 'https://polsu.vercel.app/works/a-world-lost',
-//     siteName: 'Palace of Love SU',
-//     images: [
-//       {
-//         url: 'https://polsu.vercel.app/images/poems/poem1_khadija.jpg',
-//         width: 800,
-//         height: 600,
-//       },
-//     ],
-//     locale: 'en_US',
-//     type: 'website',
-//   },
-// };
-
+// export default function RootLayout ({children, metadata}) {
 export default function RootLayout ({children}) {
   return (
     <html lang="en"
-      className={`${playfair.variable} ${allura.variable} ${antic_didone.variable} ${arizonia.variable} ${italiana.variable} ${lato.variable} ${raleway.variable} ${roboto.variable} ${taviraj.variable}`}>
-      <head>
-        <link rel="stylesheet" href="https://use.typekit.net/zhk1gcr.css" />
-        <link rel="stylesheet" href="https://use.typekit.net/ysh6zjx.css" />
-      </head>
+      className={`${antic_didone.variable} ${arizonia.variable} ${italiana.variable} ${lato.variable}`}>
+      {/* <head>
+        <title>{metadata.title}</title>
+        <meta property="og:title" content={metadata.openGraph.title} />
+        <meta property="og:url" content={metadata.openGraph.url} />
+        <meta property="og:site_name" content={metadata.openGraph.siteName} />
+        <meta property="og:image" content={metadata.openGraph.images[0].url} />
+      </head> */}
       <body className="flex flex-col min-h-screen">
         <ClientRoot />
         <main className="grow">

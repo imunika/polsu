@@ -42,7 +42,7 @@ export default function MultiFilters() {
         <div></div>
         <div className="col-span-8 lg:col-span-6 mt-10">
           <div className="lg:px-5 pt-3 text-center font-lato font-light text-4xl sm:text-5xl leading-8 tracking-wide uppercase">
-            Works
+            REFLECTIONS
           </div>
           <div className='flex items-center justify-center mt-10 h-[4rem] w-full 
           lg:translate-x-1/2 lg:w-1/2 rounded-full border border-white border-opacity-40

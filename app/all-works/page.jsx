@@ -41,7 +41,7 @@ export default function MultiFilters() {
         <div></div>
         <div className="col-span-6 mt-10">
           <div className="lg:px-5 pt-3 text-zinc-950 text-center font-lato font-light text-5xl capitalize leading-8 tracking-wide">
-            WORKS
+            REFLECTIONS
           </div>
         </div>
         <div></div>

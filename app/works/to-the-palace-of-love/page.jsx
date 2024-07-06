@@ -6,6 +6,32 @@ import SocialIcons from "../../components/Socialicons";
 import Link from "next/link";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 
+// import RootLayout from './layout/RootLayout';
+// import { metadata as staticMetadata } from './layout/RootLayout';
+// import data from "/src/data";
+
+// function getMetadataForCurrentPage() {
+//   const currentPage = "/works/to-the-palace-of-love";
+//   const selectedData = data.find(item => item.url === currentPage);
+//   if (selectedData) {
+//     return {
+//       title: 'Palace of Love SU', // Example static fallback
+//       openGraph: {
+//         title: selectedData.title,
+//         url: `https://polsu.vercel.app${selectedData.url}`,
+//         siteName: 'Palace of Love SU',
+//         images: [
+//           {
+//             url: `https://polsu.vercel.app${selectedData.cover_img}`,
+//           },
+//         ],
+//       },
+//     };
+//   } else {
+//     return staticMetadata; // Fallback to static metadata if no match found
+//   }
+// }
+
 export default function PalaceOfLovePoem() {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [modalData, setModalData] = useState({});
@@ -24,8 +50,11 @@ export default function PalaceOfLovePoem() {
     setIsModalVisible(false);
   };
 
+  // const metadata = getMetadataForCurrentPage();
+
   return (
     <>
+    {/* <RootLayout metadata={metadata}> */}
       <div className="grid grid-cols-6 m-6">
         <div></div>
         <div className="sm:my-10 md:col-span-4 col-span-6 bg-[rgb(253,249,249)]">
@@ -164,6 +193,7 @@ export default function PalaceOfLovePoem() {
         </div>
         <div></div>
       </div>
+        {/* </RootLayout> */}
     </>
   );
 }

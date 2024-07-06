@@ -137,14 +137,14 @@ export default function WorldLostEssay() {
           <div className="flex items-center gap-20">
             <div className="text-left flex-1">
               <div className="flex flex-col">
-                {/* <p className="font-lato text-left text-sm text-[rgb(190,58,59)] md:ml-14">PREVIOUS ESSAY</p>
+                <p className="font-lato text-left text-sm text-[rgb(190,58,59)] md:ml-14">PREVIOUS ESSAY</p>
                 <div className="flex gap-1 items-center justify-start">
                 <div className="hidden md:block"><BsChevronCompactLeft size={50} color="#be3a3b" /></div>
-                  <Link href="/works/"
+                  <Link href="/works/whats-love-got-to-do-with-it"
                     className="text-gray-950 font-light text-md md:text-lg hover:text-[rgb(190,58,59)]">
-                    <div className="line-clamp-2"></div>
+                    <div className="line-clamp-2">What’s Love Got to Do With It?</div>
                   </Link>
-                </div> */}
+                </div>
               </div>
             </div>
             <div className="text-right flex-1">
