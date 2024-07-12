@@ -72,7 +72,7 @@ export default function WorldLostPoem() {
                   <p className="text-center">And it’s these days is when we say the prayer</p>
                   <br />
                   <div className="flex items-center justify-center">
-                    <Image src="/images/works/a-world-lost/a_world_lost_prayer2.png" width={1280} height={720} alt="" className="w-[50%]" />
+                    <Image src="/images/works/a-world-lost/a_world_lost_prayer.png" width={1280} height={720} alt="" className="w-[50%]" />
                   </div>  
                   <br />
                   <p className="text-center">Allahumma hawalaina wala ‘alaina</p>

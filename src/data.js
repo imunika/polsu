@@ -54,6 +54,18 @@ const data = [
   {
     id: 4,
     category: "essays",
+    author_name: "Ankush Arora",
+    title: "Finding Love for “Home”: Curating Mithila Art at Syracuse University Art Museum",
+    cover_img: "/images/portal/finding_love_aa.jpg",
+    desc: "January 2023. It was a typically snowy day in Syracuse, my temporary home for two years as a graduate student in the university’s M.A. program in art history (2021-23). On that day, many buildings on the Syracuse University campus were bathed in a white sheet of snow, while its clear, undulating paths stood out as strips of deep brown concrete in an ...",
+    url: "/works/finding-love-for-home",
+    time: "",
+    date: "",
+    icon: <SiGoogledocs className="text-white text-4xl drop-shadow-xl" />
+  },
+  {
+    id: 5,
+    category: "essays",
     author_name: "Rebecca M. Brown",
     title: "Infectious Transmissions: Rina Banerjee in Two Dimensions",
     cover_img: "/images/portal/infectious_transmissions_rb.jpg",
@@ -64,7 +76,7 @@ const data = [
     icon: <SiGoogledocs className="text-white text-4xl" />
   },
   {
-    id: 5,
+    id: 6,
     category: "essays",
     author_name: "Natalie Rieth",
     title: "Love in Syracuse: Making Art Together",
@@ -76,7 +88,7 @@ const data = [
     icon: <SiGoogledocs className="text-white text-4xl" />
   },
   {
-    id: 6,
+    id: 7,
     category: "essays",
     author_name:"Jason Vartikar",
     title: "Mermaid Thoughts",
@@ -88,7 +100,7 @@ const data = [
     icon: <SiGoogledocs className="text-white text-4xl" />
   },
   {
-    id: 7,
+    id: 8,
     category: "essays",
     author_name: "Timur Hammond",
     title: "Other Routes of the Image: Looking at Rina Banerjee by Way of Istanbul",
@@ -100,7 +112,7 @@ const data = [
     icon: <SiGoogledocs className="text-white text-4xl" />
   },
   {
-    id: 8,
+    id: 9,
     category: "essays",
     author_name: "Kate Holohan",
     title: "Reflection: “Take Me to the Palace of Love”",
@@ -112,7 +124,7 @@ const data = [
     icon: <SiGoogledocs className="text-white text-4xl" />
   },
   {
-    id: 9,
+    id: 10,
     category: "essays",
     author_name: "Mike Goode",
     title: "Scale Modeling: The Climate of Rina Banerjee’s “A World Lost…”",
@@ -124,7 +136,7 @@ const data = [
     icon: <SiGoogledocs className="text-white text-4xl" />
   },
   {
-    id: 10,
+    id: 11,
     category: "essays",
     author_name: "Lawrence Chua",
     title: "Stranger in the Palace of Love",
@@ -136,7 +148,7 @@ const data = [
     icon: <SiGoogledocs className="text-white text-4xl" />
   },
   {
-    id: 11,
+    id: 12,
     category: "essays",
     author_name: "Melissa Yuen",
     title: "“Take me, take me, take me... to the art museum”",
@@ -148,7 +160,7 @@ const data = [
     icon: <SiGoogledocs className="text-white text-4xl" />
   },
   {
-    id: 12,
+    id: 13,
     category: "essays",
     author_name: "Danielle Taana Smith",
     title: "“Take Me to the Palace of Love”: Teaching Out Loud about the Arts, Resistance and the Curriculum of Love",
@@ -160,7 +172,7 @@ const data = [
     icon: <SiGoogledocs className="text-white text-4xl" />
   },
   {
-    id: 13,
+    id: 14,
     category: "essays",
     author_name: "Joan Bryant",
     title: "“Tell Me Whom You Love”: ‘Mixed’ Marriage & Racial Mutability",
@@ -172,7 +184,7 @@ const data = [
     icon: <SiGoogledocs className="text-white text-4xl" />
   },
   {
-    id: 14,
+    id: 15,
     category: "poems",
     author_name: "Justo Triana",
     title: "To the Palace of Love",
@@ -184,7 +196,7 @@ const data = [
     icon: <FaFeatherPointed className="text-white text-4xl" />
   },
   {
-    id: 15,
+    id: 16,
     category: "poems",
     author_name: "Zamzam Mohamed",
     title: "Unearthing my Identity through Viola",
@@ -196,7 +208,7 @@ const data = [
     icon: <FaFeatherPointed className="text-white text-4xl" />
   },
   {
-    id: 16,
+    id: 17,
     category: "poems",
     author_name: "Khadija Sharif",
     title: "Viola's Love Story",
@@ -208,7 +220,7 @@ const data = [
     icon: <FaFeatherPointed className="text-white text-4xl" />
   },
   {
-    id: 17,
+    id: 18,
     category: "poems",
     author_name: "Khadija Sharif",
     title: "A World Lost",
@@ -220,7 +232,7 @@ const data = [
     icon: <FaFeatherPointed className="text-white text-4xl" />
   },
   {
-    id: 18,
+    id: 19,
     category: "lectures",
     author_name: "Ankush Arora",
     title: "Being Rina Banerjee: In conversation with Ankush Arora, Natalie Rieth, and Sam Johnson",
@@ -235,7 +247,7 @@ const data = [
     next: "/lectures/matters-out-of-place"
   },
   {
-    id: 19,
+    id: 20,
     category: "lectures",
     author_name: "",
     title: "Matters Out of Place",
@@ -250,7 +262,7 @@ const data = [
     next: "/lectures/tell-me-who-you-love-race-and-kinship"
   },
   {
-    id: 20,
+    id: 21,
     category: "lectures",
     author_name: "",
     title: "Tell Me Who You Love? Race and Kinship",
@@ -265,7 +277,7 @@ const data = [
     next: "/lectures/knowing-through-looking"
   },
   {
-    id: 21,
+    id: 22,
     category: "lectures",
     author_name: "",
     title: "Knowing Through Looking",
@@ -280,7 +292,7 @@ const data = [
     next: "/lectures/a-world-lost-climate-change-art-and-law"
   },
   {
-    id: 22,
+    id: 23,
     category: "lectures",
     author_name: "",
     title: "A World Lost? Climate Change, Art, and Law",
@@ -295,7 +307,7 @@ const data = [
     next: "/lectures/in-conversation-with-gayatri-spivak"
   },
   {
-    id: 23,
+    id: 24,
     category: "lectures",
     author_name: "",
     title: "In Conversation with Gayatri Spivak",
@@ -310,7 +322,7 @@ const data = [
     next: "/lectures/lunchtime-lecture-mithila-paintings"
   },
   {
-    id: 24,
+    id: 25,
     category: "lectures",
     author_name: "",
     title: "Lunchtime Lecture: Mithila Paintings",
@@ -325,7 +337,7 @@ const data = [
     next: "/lectures/a-chant-performance-with-amarachi-attamah"
   },
   {
-    id: 25,
+    id: 26,
     category: "lectures",
     author_name: "",
     title: "A Chant Performance with Amarachi Attamah",
@@ -340,7 +352,7 @@ const data = [
     next: "/lectures/narratio-fellows-poetry-performance"
   },
   {
-    id: 26,
+    id: 27,
     category: "lectures",
     author_name: "",
     title: "Narratio Fellows Poetry Performance",
@@ -355,7 +367,7 @@ const data = [
     next: "/lectures/black-noodles-replenishing-reaping-the-earth"
   },
   {
-    id: 27,
+    id: 28,
     category: "lectures",
     author_name: "",
     title: "Black Noodles, Replenishing/Reaping the Earth",
@@ -370,7 +382,7 @@ const data = [
     next: "/lectures/making_art_with_rina_banerjee"
   },
   {
-    id: 28,
+    id: 29,
     category: "lectures",
     author_name: "Rayan Mohamed",
     title: "“Love in Syracuse”: Making art with Rina Banerjee, filmed by Rayan Mohamed",

@@ -85,7 +85,7 @@ export default function LoveInSyracuseEssay() {
                 <p className="sm:indent-16">This concept was demonstrated at the <i>Love in Syracuse: Making Art Together</i> event held in February 2023 as part of Banerjee’s recent residency as the Jeannette K. Watson Distinguished Visiting Professor in the Humanities at Syracuse University. Students from the Narratio Fellowship, Syracuse community members, as well as faculty and students from Syracuse University joined Banerjee at Salt City Market in Downtown Syracuse for an afternoon filled with food, conversation, and art-making entrenched in communal love and connection.</p>
                 <br />
                 
-                <div className="flex items-center justify-center">
+                <div className="mt-10 flex items-center justify-center">
                   <div className="w-[100%]">
                       <GlightboxDemo galleryItems={gallery1} />
                   </div>  
@@ -99,7 +99,7 @@ export default function LoveInSyracuseEssay() {
                 <p className="sm:indent-16">“Rope was designed to be strong,” Banerjee said. “And it needed to be strong — it made a whole industry and income for countries. I’m so excited about the technology of braiding that we’re so familiar with because it has made everything in the exchange of goods possible.”</p>
                 <br />
                 
-                <div className="flex items-center justify-center">
+                <div className="mt-10 flex items-center justify-center">
                   <div className="w-[100%]">
                       <GlightboxDemo galleryItems={gallery2} />
                   </div>  
@@ -111,7 +111,7 @@ export default function LoveInSyracuseEssay() {
                 <p className="sm:indent-16">“We’re all sitting together, working together, building community and getting to know each other,” participant and Syracuse school teacher Angela Waithe said. “We’re all very invested in the finishing product.”</p>
                 <br />
                 
-                <div className="flex items-center justify-center">
+                <div className="mt-10 flex items-center justify-center">
                   <div className="w-[100%]">
                       <GlightboxDemo galleryItems={gallery3} />
                   </div>  

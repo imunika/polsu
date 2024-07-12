@@ -192,9 +192,9 @@ export default function InfectiousTransmissionsEssay() {
                 <p className="font-lato text-left text-sm text-[rgb(190,58,59)] md:ml-14">PREVIOUS ESSAY</p>
                 <div className="flex gap-1 items-center justify-start">
                 <div className="hidden md:block"><BsChevronCompactLeft size={50} color="#be3a3b" /></div>
-                  <Link href="/works/a-world-lost-climate-policy-art"
+                  <Link href="/works/finding-love-for-home"
                     className="text-gray-950 font-light text-md md:text-lg hover:text-[rgb(190,58,59)]">
-                    <div className="line-clamp-2"><i>A World Lost</i>: Climate, Policy, and Art</div>
+                    <div className="line-clamp-2">Finding Love for “Home”: Curating Mithila Art at Syracuse University Art Museum</div>
                   </Link>
                 </div>
               </div>

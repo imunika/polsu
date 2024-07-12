@@ -101,7 +101,7 @@ export default function InstallingPalaceLoveEssayAC() {
                 </p>
                 <br />
 
-                <div className="flex items-center justify-center">
+                <div className="mt-10 flex items-center justify-center">
                   <div className="w-[100%]">
                       <GlightboxDemo galleryItems={gallery1} />
                   </div>  
@@ -111,7 +111,7 @@ export default function InstallingPalaceLoveEssayAC() {
                 <p className="sm:indent-16">The installation process for the <i>Take Me, Take Me, Take Me…to the Palace of Love</i>, <i>Viola, from New Orleans</i>, and <i>A World Lost</i> was neither glamorous nor easy (fig. 2). I probably spent an equal amount of time kneeling on the ground to unwrap objects and laying on my back to patch holes in the plastic underside of the <i>Taj</i> dome as I did standing on my feet (fig. 3). At times, the process was almost humbling as I crawled on the ground in front of <i>Viola</i>, meticulously placing each shoe and shell around her feet, and then spending more than an hour combing through the hundreds of threads hanging from her clothes and body (figs. 4 and 5). Despite the challenges, I do think this installation was distinctive in the sheer amount of teamwork required to put it together, and the camaraderie that emerged through the process. Nothing bonds a group of people more than sitting underneath the largest dome of the <i>Take Me, Take Me, Take Me…to the Palace of Love</i> and collectively feeling as if we’re sitting in a womb, which was a truly unique experience to say the least. But suffice to say, the work would never have gotten done without the assistance of our full museum staff, plus Rina’s installer, John Umphlett, who never seemed fazed by the task at hand, though I’m sure that putting a pink Taj Mahal together, piece by piece, is just a typical day in the office for him (fig. 6).</p>
                <br />
 
-                <div className="flex items-center justify-center">
+                <div className="mt-10 flex items-center justify-center">
                   <div className="w-[70%]">
                       <GlightboxDemo galleryItems={gallery2} />
                   </div>  
@@ -121,7 +121,7 @@ export default function InstallingPalaceLoveEssayAC() {
                 <p className="sm:indent-16">For me, however, this experience was unlike anything I’ve ever done before, both inside and outside of the museum world. It was challenging and intricate, but seeing an empty gallery space fill with these larger-than-life pieces in less than a week and knowing I played a role in the process was an incredibly rewarding feeling (fig. 7).</p>
                 <br />
                 
-                <div className="flex items-center justify-center">
+                <div className="mt-10 flex items-center justify-center">
                   <div className="w-[70%]">
                       <GlightboxDemo galleryItems={gallery3} />
                   </div>  

@@ -117,7 +117,6 @@ export default function StrangerPalaceLoveEssay() {
                 <br />
                 <p className="sm:indent-16">At the center of Rina Banerjee’s <i>Take me, take me, take me … to the Palace of Love</i> (2003) is an antique globe, a model of the world European empires sought to dominate (fig. 2). It is a model based in scientific reason, but organized according to the new, conceptual order of Westphalian nation-states with clearly defined borders and territories. Hovering precariously above the globe is a heavy antique Anglo-Indian chair (fig. 3). Red orbs cascade over this hybrid throne, filling its seat and spilling over it like luscious jewels or drops of blood. Over all of this, pink plastic sheets, stretched across a metal frame, mimic the spectral form of the Taj Mahal. In its mimicry of the original, Banjeree’s sculpture allows us to peer through the building’s romantic image and glimpse something else.</p>
                 <br />
-                <br />
                 
                 <div className="mt-10 flex items-center justify-center">
                   <div className="w-[100%]">

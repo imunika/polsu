@@ -73,16 +73,17 @@ export default function HomePage() {
               and “Viola, from New Orleans-“ (2017). Together with a selection of the artist’s drawings, these thought-provoking
               works of art were displayed alongside the museum’s collection of Mithila paintings,
               African masks, Indian sculpture, American paintings and prints, and historic photographs
-              of Mughal architecture. Rare books from the Syracuse University Libraries; a magnificent chair
-              designed by Lockwood de Forest from the Munson-Williams-Proctor-Arts Institute; and a
+              of Mughal architecture. Rare books from the Syracuse University Libraries; an intricately carved chair
+              designed by Lockwood de Forest from the Munson; and a
               colonial era photograph of the Taj Mahal loaned by the Herbert F. Johnson Museum of Art at Cornell University,
               rounded off the exhibition. A series of public conversations, events, and lectures inspired by critical issues
               addressed by Banerjee and more broadly, by the exhibition, drew out the complexities of the theme of “love.”
               Designed as a post-exhibition catalogue, this website brings together those responses. We invite you to browse
-              the videos, essays, and poems that focus on different aspects of Banerjee’s visual repertoire and the exhibition.
+              the videos, essays, and poems that focus on different aspects of Banerjee’s visual repertoire and
+              on curating and installing the exhibition.
             </p>
             <p className="text-lg md:text-justify text-zinc-800 leading-8 tracking-wide sm:px-8 pb-8">
-              In April 2024, Take Me to the Palace of Love was recognized by the Museum Association of New York
+              In April 2024, <i>Take Me to the Palace of Love</i> was recognized by the Museum Association of New York
               (MANY) with an Award of Distinction in the “Engaging Communities” category. More than 5,000 visitors
               attended the exhibition and its events.
             </p>
@@ -105,7 +106,7 @@ export default function HomePage() {
           </div>
           <br />
             <div className="flex justify-center text-oval-wrap p-10 lg:float-left">
-              <figure className="mt-6 mr-2">
+              <figure className="mt-6 mr-6">
                 <Image
                   src="/images/rina_viola.jpg"
                   alt=""
@@ -113,7 +114,7 @@ export default function HomePage() {
                   height={680}
                   className="border border-slate-300 mt-4 p-2 rounded-full mx-auto md:mx-0"
                 />
-                <figcaption className="mt-1 ml-1 text-xs text-center text-slate-600 dark:text-gray-400">Rina and Viola</figcaption>
+                <figcaption className="mt-1 mr-10 text-xs text-center text-slate-600 dark:text-gray-400">Rina Banerjee, Syracuse University Art Museum,<br />February 2023</figcaption>
               </figure>
             </div>
             <div className="text-lg md:text-justify text-zinc-800 leading-8 tracking-wide text-content">
