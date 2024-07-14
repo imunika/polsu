@@ -1,7 +1,6 @@
 'use client';
 import Image from "next/image";
 import Articles from "./components/Articles";
-import GlightboxDemo from "./components/GlightboxDemo";
 
 const gallery1 = [
   {
@@ -15,43 +14,27 @@ export default function HomePage() {
   return (
     <>
       <main>
-        {/* Hero section */}
-        <section className="h-screen bg-center bg-cover bg-blend-overlay bg-black/20 bgimg">
-          <div className="h-screen flex items-center">
-            <div className="pt-10 px-5 text-white flex flex-col justify-center items-center mx-auto [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <h1 className=" text-center font-italiana font-extralight text-3xl lg:text-5xl">
-                Reflections on
-              </h1>
-              <h2 className="pt-5 text-center center font-italiana font-extralight text-4xl md:text-5xl lg:text-7xl">
-                <em>Take Me to the Palace of Love</em>
-              </h2>
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <p className="pt-10 text-center inline-block font-italiana font-extralight text-xl md:text-2xl">
+      {/* Hero section */}
+      <section className="h-screen bg-center bg-cover bg-blend-overlay bg-black/20 bgimg relative">
+          <div className="h-full flex flex-col justify-between">
+            {/* Top content (centered) */}
+            <div className="flex-grow flex items-center justify-center text-white text-center">
+              <div>
+                <h1 className="font-italiana font-extralight text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+                  Reflections on
+                </h1>
+                <h1 className="pt-2 font-italiana font-extralight text-3xl sm:text-4xl md:text-5xl lg:text-7xl">
+                  <em>Take Me to the Palace of Love</em>
+                </h1>
+              </div>
+            </div>
+
+            {/* Bottom content (centered) */}
+            <div className="pb-12 md:pb-32 text-center inline-block text-white">
+              <p className="font-italiana font-extralight text-xl md:text-2xl">
                 Syracuse University Art Museum
               </p>
-              <p className="pb-10 text-center inline-block font-italiana font-extralight text-xl md:text-2xl mb-4">
+              <p className="font-italiana font-extralight text-xl md:text-2xl">
                 (January 19-May 14, 2023)
               </p>
             </div>
@@ -97,16 +80,15 @@ export default function HomePage() {
         <div className="bg-[rgb(248,226,226)] my-14 h-16 w-1.5 rounded-full hidden sm:block"></div>
         </div>
 
-        
+        {/* About Rina */}
         <div className="grid grid-cols-8 bg-[rgb(253,249,249)] mb-6 p-8">
         <div></div>
         <div className="mb-6 md:col-span-6 col-span-8">
-          <div className="lg:px-5 pt-8 pb-6 text-center font-lato font-light text-4xl sm:text-5xl leading-8 tracking-wide capitalize">
+          <div className="lg:px-5 pt-8 pb-4 lg:pb-6 md:mb-8 text-center font-lato font-light text-4xl sm:text-5xl leading-8 tracking-wide capitalize">
             About Rina Banerjee
           </div>
-          <br />
-            <div className="flex justify-center text-oval-wrap p-10 lg:float-left">
-              <figure className="mt-6 mr-6">
+            <div className="flex justify-center text-oval-wrap p-4 lg:p-10 lg:float-left">
+              <figure className="lg:mt-6 lg:mr-6 text-center">
                 <Image
                   src="/images/rina_viola.jpg"
                   alt=""
@@ -114,10 +96,10 @@ export default function HomePage() {
                   height={680}
                   className="border border-slate-300 mt-4 p-2 rounded-full mx-auto md:mx-0"
                 />
-                <figcaption className="mt-1 mr-10 text-xs text-center text-slate-600 dark:text-gray-400">Rina Banerjee, Syracuse University Art Museum,<br />February 2023</figcaption>
+                <figcaption className="mt-1 lg:mr-10 text-xs text-center text-slate-600 dark:text-gray-400">Rina Banerjee, Syracuse University Art Museum,<br />February 2023</figcaption>
               </figure>
             </div>
-            <div className="text-lg md:text-justify text-zinc-800 leading-8 tracking-wide text-content">
+            <div className="pt-4 text-lg md:text-justify text-zinc-800 leading-8 tracking-wide text-content">
               <p className="sm:px-8 pb-8">Rina Banerjee was born in Kolkata, India, lived briefly in Manchester and London before arriving to Queens, New York. Drawing on her multinational background and personal history as an immigrant, Banerjee focuses on ethnicity, race, and migration and American diasporic histories in her sculpture, drawings, and video art. Her sculptures feature a wide range of globally sourced materials, textiles, colonial/historical and domestic objects while her drawings are inspired by Indian miniature and Chinese silk paintings and Aztec drawings.</p>
               <p className="sm:px-8 pb-8">In 2018 Pennsylvania Academy of the Fine Arts and the San José Museum of Art co-organized Banerjee’s first solo retrospective <i>Rina Banerjee: Make Me a Summary of the World</i> featuring 60 works of sculptures, paintings, and video. The retrospective’s North American tour includes exhibitions at the San Jose Museum of Art, Fowler Museum at the University of California, Los Angeles ending at the Frist Art Museum in Nashville Tennessee in 2020. Banerjee has exhibited internationally, spanning 14 biennials worldwide, including the Venice Biennial (Biennale), Yokohama Triennale, and Kochi Biennial. Banerjee’s works are included in many private and public collections such as the Foundation Louis Vuitton, Whitney Museum of American Art, San Francisco Museum of Modern Art, Centre Pompidou, Pennsylvania Academy of Fine Arts, San Jose Museum of Art, Kiran Nadar Museum of Art, and the Brooklyn Museum.</p>
               <p className="sm:px-8 pb-8">Banerjee returned to teaching in 2020, as a critic for the Yale School of Art Graduate Program. Between September 2021 and January 2022, she served a prestigious artist’s residency at the Centre Pompidou in Paris. In 2024, Banerjee received an Asia Arts Game Changer Award at the Asia Society in New York.</p>
