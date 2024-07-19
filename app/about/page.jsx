@@ -25,9 +25,9 @@ export default function AboutPage() {
                 alt="Rina in front of Pink Taj"
                 className="border border-slate-300 p-2 rounded-3xl"
               />
-              <figcaption className="mt-1 ml-1 text-xs text-slate-600 dark:text-gray-400">“Rina in front of Pink Taj.” Rina Banerjee, <i>Take Me to the Palace of Love</i>, Syracuse University.</figcaption>
+              <figcaption className="mb-6 2xl:mb-2 mt-1 ml-1 text-xs text-slate-600 dark:text-gray-400">“Rina in front of Pink Taj.” Rina Banerjee, <i>Take Me to the Palace of Love</i>, Syracuse University.</figcaption>
             </figure>
-            <p className="mt-4 lg:mt-0">
+            <p className="">
               <i>Take Me to the Palace of Love</i> grew out of a global pandemic (January 19 – May 14, 2023).
               Inspired by Rina Banerjee’s “Take Me, Take Me, Take Me…to the Palace of Love” (2003), affectionately
               dubbed the “Pink Taj,” the exhibition took as its departure point, the theme of love inextricably

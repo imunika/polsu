@@ -11,7 +11,7 @@ export default function Buttons({ menuItems, filterItems, selectedCategory, setS
       {menuItems.map(val => (
         <button
           key={val}
-          className={`bg-red-50 px-4 py-1 rounded-full text-sm ring-1 ring-red-100 ring-offset-2 uppercase transition hover:bg-red-700 hover:text-white
+          className={`text-xs sm:text-sm bg-red-50 px-4 py-1 rounded-full ring-1 ring-red-100 ring-offset-2 uppercase transition hover:bg-red-700 hover:text-white
           ${selectedCategory === val ? 'bg-red-700 text-white font-normal' : 'text-black'}`}
           onClick={() => handleClick(val)}
         >
