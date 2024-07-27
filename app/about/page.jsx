@@ -26,7 +26,7 @@ export default function AboutPage() {
                 className="border border-slate-300 p-2 rounded-3xl"
               />
               <figcaption className="xl:w-[720px] mb-6 2xl:mb-2 mt-1 ml-1 text-xs text-slate-600 dark:text-gray-400">
-                Rina Banerjee in front of “Take Me, Take Me..to the Palace of Love (2003),” February 2023, <i>Take Me to the Palace of Love</i>, Syracuse University University Art Museum.
+                Rina Banerjee in front of “Take Me, Take Me..to the Palace of Love (2003),” February 2023, <i>Take Me to the Palace of Love</i>, Syracuse University Art Museum.
               </figcaption>
             </figure>
 
