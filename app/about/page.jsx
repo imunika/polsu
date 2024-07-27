@@ -17,7 +17,7 @@ export default function AboutPage() {
         <div></div>
         <div className="mb-10 md:col-span-4 col-span-6">
           <div className="text-lg md:text-justify text-zinc-800 leading-8 tracking-wide p-4 pt-16">
-            <figure className="flex flex-col items-center 2xl:float-right mt-2">
+            <figure className="flex flex-col items-center 2xl:float-right 2xl:ml-7 mt-2">
               <img
                 src="/images/about/rina_pink_taj.jpg"
                 width="720"
