@@ -17,7 +17,7 @@ export default function AboutPage() {
         <div></div>
         <div className="mb-10 md:col-span-4 col-span-6">
           <div className="text-lg md:text-justify text-zinc-800 leading-8 tracking-wide p-4 pt-16">
-            <figure className="flex flex-col items-center 2xl:float-right lg:ml-7 mt-2">
+            <figure className="flex flex-col items-center 2xl:float-right mt-2">
               <img
                 src="/images/about/rina_pink_taj.jpg"
                 width="720"
@@ -25,8 +25,11 @@ export default function AboutPage() {
                 alt="Rina in front of Pink Taj"
                 className="border border-slate-300 p-2 rounded-3xl"
               />
-              <figcaption className="mb-6 2xl:mb-2 mt-1 ml-1 text-xs text-slate-600 dark:text-gray-400">“Rina in front of Pink Taj.” Rina Banerjee, <i>Take Me to the Palace of Love</i>, Syracuse University.</figcaption>
+              <figcaption className="xl:w-[720px] mb-6 2xl:mb-2 mt-1 ml-1 text-xs text-slate-600 dark:text-gray-400">
+                Rina Banerjee in front of “Take Me, Take Me..to the Palace of Love (2003),” February 2023, <i>Take Me to the Palace of Love</i>, Syracuse University University Art Museum.
+              </figcaption>
             </figure>
+
             <p className="">
               <i>Take Me to the Palace of Love</i> grew out of a global pandemic (January 19 – May 14, 2023).
               Inspired by Rina Banerjee’s “Take Me, Take Me, Take Me…to the Palace of Love” (2003), affectionately
