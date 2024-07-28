@@ -31,12 +31,12 @@ export default function SocialIcons() {
     return <p>No matching entry found.</p>;
   }
 
-  const mailtoLink = `mailto:?subject=${encodeURIComponent(entry.title)}&body=https://polsu.vercel.app${entry.url}`;
+  const mailtoLink = `mailto:?subject=${encodeURIComponent(entry.title)}&body=https://www.palaceoflovesyracuse.com${entry.url}`;
 
   return (
     <div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-sm font-medium">
       <a
-        href={`https://www.facebook.com/sharer/sharer.php?display=page&u=https://polsu.vercel.app/works/${slug}`}
+        href={`https://www.facebook.com/sharer/sharer.php?display=page&u=https://www.palaceoflovesyracuse.com/works/${slug}`}
         className="bg-[rgb(252,252,252)] border border-[#be3a3b]/10 p-2 text-gray-700 flex items-center gap-2 rounded-full
           focus:scale-110 hover:scale-[1.15] hover:bg-white hover:text-[#be3a3b] active:scale-105 transition cursor-pointer"
         target="_blank"
@@ -46,7 +46,7 @@ export default function SocialIcons() {
       </a>
 
       <a
-        href={`https://twitter.com/intent/tweet?url=https://polsu.vercel.app${entry.url}&text=${encodeURIComponent(entry.title)}`}
+        href={`https://twitter.com/intent/tweet?url=https://www.palaceoflovesyracuse.com${entry.url}&text=${encodeURIComponent(entry.title)}`}
         className="bg-[rgb(252,252,252)] border border-[#be3a3b]/10 p-2 text-gray-700 flex items-center gap-2 rounded-full 
           focus:scale-110 hover:scale-[1.15] hover:bg-white hover:text-[#be3a3b] active:scale-105 transition cursor-pointer"
         target="_blank"
